@@ -20,7 +20,7 @@ public class Main {
         System.out.println(doubleNumbers[2] + ", " + doubleNumbers[1] + ", " + doubleNumbers[0]);
         System.out.println(symbols[2] + ", " + symbols[1] + ", " + symbols[0]);
 
-        System.out.println("Задача 4");
+        System.out.println("Задача 4 ");
         int[] intNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for (int i = 0; i < intNumbers.length; i++) {
             if(intNumbers[i] % 2 == 0){
