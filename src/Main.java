@@ -3,11 +3,11 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
-        int [] integerNumbers = new  int[3];
+        int[] integerNumbers = new int[3];
         integerNumbers[0] = 1;
         integerNumbers[1] = 2;
         integerNumbers[2] = 3;
-        double [] doubleNumbers = {1.57, 7.654, 9.986};
+        double[] doubleNumbers = {1.57, 7.654, 9.986};
         char[] symbols = {'a', 'b', 'c'};
 
         System.out.println("Задача 2");
@@ -20,14 +20,14 @@ public class Main {
         System.out.println(doubleNumbers[2] + ", " + doubleNumbers[1] + ", " + doubleNumbers[0]);
         System.out.println(symbols[2] + ", " + symbols[1] + ", " + symbols[0]);
 
-        System.out.println("Задача 4 ");
-        int[] intNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        for (int i = 0; i < intNumbers.length; i++) {
-            if(intNumbers[i] % 2 == 0){
+        System.out.println("Задача 4");
+        for (int i = 0; i < integerNumbers.length; i++) {
+            if (integerNumbers[i] % 2 == 0) {
                 continue;
             } else {
-                intNumbers[i]++;}
+                integerNumbers[i]++;
+            }
         }
-        System.out.println(Arrays.toString(intNumbers));
+        System.out.println(Arrays.toString(integerNumbers));
     }
 }
